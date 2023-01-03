@@ -1,3 +1,5 @@
+# Thanks to DT for the script
+# Original script link https://gitlab.com/dwt1/dotfiles/-/blob/b40026471ed0552c9281f7e22eee9d4bd6827db1/.local/bin/notify-log
 #!/usr/bin/env bash
 
 logfile=$1
