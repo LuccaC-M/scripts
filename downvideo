@@ -1,0 +1,5 @@
+DownloadVideo() {
+	youtube-dl --video-format mp4 --embed-thumbnail "$url"
+}
+
+DownloadVideo $1
