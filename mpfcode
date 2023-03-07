@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir MP4Coded
+
+for i in *.mov; do
+    ffmpeg -i "$i" -vcodec h264 -acodec mp2 "./MP4Coded/${i%.*}.mp4"
+done
